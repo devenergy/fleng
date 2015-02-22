@@ -1,0 +1,7 @@
+.DS_Store
+thumbs.db
+
+bower_components
+node_modules
+npm-debug.log
+.npmrc

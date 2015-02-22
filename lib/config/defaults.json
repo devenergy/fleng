@@ -1,0 +1,51 @@
+{
+  "http": {
+    "hostname": "localhost",
+    "port": 7654
+  },
+
+  "database": {
+    "hostname": "localhost",
+    "port": 27017,
+    "name": "fleng"
+  },
+
+  "socket.io": {
+    "path": "/socket.io",
+    "serveClient": false
+  },
+
+  "middleware": {
+    "favicon": {
+      "path": null
+    },
+
+    "assets": {
+      "precompile": [
+        "main.js",
+        "style.css"
+      ],
+      "servePath": "assets",
+      "compile": true,
+      "paths": [
+        "assets/scripts",
+        "assets/stylesheets",
+        "assets/vendor",
+        "bower_components"
+      ]
+    },
+
+    "session": {
+      "cookie": "fleng.sid",
+      "maxAge": 1209600000,
+      "secret": "fleng session secret"
+    },
+
+    "static": {
+      "paths": [
+        "public"
+      ]
+    },
+    "morgan": {}
+  }
+}
