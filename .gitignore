@@ -5,3 +5,5 @@ bower_components
 node_modules
 npm-debug.log
 .npmrc
+
+!node_modules/fleng-config
