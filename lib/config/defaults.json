@@ -7,7 +7,8 @@
   "database": {
     "hostname": "localhost",
     "port": 27017,
-    "name": "fleng"
+    "name": "fleng",
+    "debug": false
   },
 
   "socket.io": {
@@ -21,18 +22,10 @@
     },
 
     "assets": {
-      "precompile": [
-        "main.js",
-        "style.css"
-      ],
+      "bundle": false,
+      "compress": false,
       "servePath": "assets",
-      "compile": true,
-      "paths": [
-        "assets/scripts",
-        "assets/stylesheets",
-        "assets/vendor",
-        "bower_components"
-      ]
+      "paths": null
     },
 
     "session": {
@@ -46,6 +39,7 @@
         "public"
       ]
     },
+
     "morgan": {}
   }
 }
