@@ -16,6 +16,12 @@
     "serveClient": false
   },
 
+  "scheduler": {
+    "prefix": "fleng:jobs",
+    "jobsDirectory": "jobs",
+    "defaultConcurency": 1
+  },
+
   "middleware": {
     "favicon": {
       "path": null
