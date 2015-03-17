@@ -1,10 +1,11 @@
 {
   "name": "fleng",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "./lib/fleng.js",
   "dependencies": {
     "bluebird": "^2.9.6",
     "commander": "^2.6.0",
+    "connect-assets": "^4.6.0",
     "connect-mongo": "^0.7.0",
     "cookie-parser": "^1.3.3",
     "email-templates": "^1.2.0",
